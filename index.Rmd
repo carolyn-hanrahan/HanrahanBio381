@@ -7,7 +7,7 @@ output: html_document
 
 *Homework 2*
 - 
-<span style = "color: blue;">Google taught me how to do this</span>
+<span style = "color: orange;">Google taught me how to do this</span>
 
 
 - For homework number two I created this index file. 
