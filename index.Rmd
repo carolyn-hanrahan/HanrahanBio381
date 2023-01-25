@@ -11,6 +11,7 @@ output: html_document
 
 
 - For homework number two I created this index file. 
+- [click for hedgehog](hedgehog1.jpg)
 
 ## Homework 3 
 
