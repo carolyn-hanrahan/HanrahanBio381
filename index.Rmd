@@ -17,6 +17,8 @@ output: html_document
 
 - [Homework3](homework3.Rmd)
 
+(hedgehog1.jpg)
+
 
 
 
