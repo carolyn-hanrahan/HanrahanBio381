@@ -9,9 +9,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Carolyn Hanrahan" />
 
+<meta name="date" content="2023-02-01" />
 
-<title>index.knit</title>
+<title>Homework 3</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -348,39 +350,76 @@ display: none;
 
 
 
+<h1 class="title toc-ignore">Homework 3</h1>
+<h4 class="author">Carolyn Hanrahan</h4>
+<h4 class="date">2023-02-01</h4>
 
 </div>
 
 
-<table>
-<tbody>
-<tr class="odd">
-<td>title: “Computational Biology Assignments”</td>
-</tr>
-<tr class="even">
-<td>author: “Carolyn Hanrahan”</td>
-</tr>
-<tr class="odd">
-<td>date: “2023-01-25”</td>
-</tr>
-<tr class="even">
-<td>output: html_document</td>
-</tr>
-</tbody>
-</table>
-<div id="homework-2" class="section level2">
-<h2><span style="color: red;">Homework 2</span></h2>
-<ul>
-<li><p><span style="color: orange;">Google taught me how to do
-this</span></p></li>
-<li><p>For homework number two I created this index file.</p></li>
-</ul>
+<p>This is the Rmarkdown/html file I will use for homework 3</p>
+<div id="homework-3-regexregular-expressions" class="section level1">
+<h1>Homework 3: Regex/Regular Expressions</h1>
+<div id="question-1" class="section level2">
+<h2>Question 1:</h2>
+<pre><code>find: \s{2,}
+replace: ,</code></pre>
+<p>For question one I found 2 or more spaces and replaced those spaces
+with a comma in order to get the answer.</p>
 </div>
-<div id="homework-3-feb.1st-2023" class="section level2">
-<h2><span style="color: green;">Homework 3: Feb.1st, 2023</span></h2>
-<ul>
-<li><a href="homework3.html">Homework3</a></li>
-</ul>
+<div id="question-2" class="section level2">
+<h2>Question 2:</h2>
+<pre><code>find: (\w+),\s(\w+),\s(.*)
+replace: \2 \1 \(\3\)</code></pre>
+<p>For question 2 I found the first set of one or more characters,
+followed by a comma and space, followed by the second set of one or more
+characters, followed by a comma, a space, and “all the rest”. I then
+rearranged these segments so that it goes second set of characters,
+followed by first, followed by all the rest.</p>
+</div>
+<div id="question-3" class="section level2">
+<h2>Question 3:</h2>
+<pre><code>find: (.mp3)
+replace: \1\n</code></pre>
+<p>For question 3 I found the literal characters “.mp3” and replaced
+that with the same thing (/1) and /n to indicate a line break.</p>
+</div>
+<div id="question-4" class="section level2">
+<h2>Question 4:</h2>
+<pre><code>find: (\d{4})(.*)(.\w{2}\d)
+replace: \2\_\3</code></pre>
+<p>For question 4 I found the first four digits, and then “all of the
+rest” up until a period followed by 2 characters and a digit. I then
+rearranged these parentheses to get the correct order.</p>
+</div>
+<div id="question-5" class="section level2">
+<h2>Question 5:</h2>
+<pre><code>find: (\w)(\w+),(\w+),(\d+.\d+),(\d+)
+replace: \1_\3_\5</code></pre>
+<p>For question 5 I began by isolating the first word character in a
+parentheses, followed by the rest of the word, a comma, the second word,
+and the string of numbers. I then rearranged the ordering of these
+parentheses segments to create the final product.</p>
+</div>
+<div id="question-6" class="section level2">
+<h2>Question 6</h2>
+<pre><code>find: (\w_)(\w{4})(.*,)(\d+)
+replace: \1 \2,\4</code></pre>
+<p>For question 6, I found the first character followed by an
+underscore, followed by the second set of 4 characters, “all the rest”
+until the comma, and the string of numbers. I then rearranged as seen
+above.</p>
+</div>
+<div id="question-7" class="section level2">
+<h2>Question 7</h2>
+<pre><code>find: (\w{3})(\w+),(\w{3})(\w{3})(\w+),(\d+.)(\d)(\d+)
+replace: \1\3\, \7 \5 \6</code></pre>
+<p>Finally for question 7 I found the first set of three characters,
+followed by the rest of the word, a comma, the next set of three
+characters, the next set of three characters, the rest of the word, a
+comma, and the number segments. I then rearranged these parenthese into
+the appropriate order. Thank you for your help!</p>
+</div>
 </div>
 
 

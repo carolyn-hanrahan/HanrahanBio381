@@ -13,11 +13,10 @@ output: html_document
 
 - For homework number two I created this index file. 
 
-## <span style = "color: green;" >Homework 3</span> 
+## <span style = "color: green;" >Homework 3: Feb.1st, 2023</span> 
 
-- [Homework3](homework3.Rmd)
+- [Homework3](homework3.html)
 
-(hedgehog1.jpg)
 
 
 
