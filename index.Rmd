@@ -17,10 +17,14 @@ output: html_document
 
 - [Homework3](homework3.html)
 
-## <span style = "color:blue;" >Homework 4: Feb. 8th, 2023</span>
+## <span style = "color:blue;" >Homework 4: Feb.8th, 2023</span>
 - [Homework4](Homework4.html)  
 
+- [Homework4Rmd](Homework4.Rmd)
 
+## <span style = "color:purple;" >Homework 5: Feb.15th, 2023</span>
+- [Homework5.Rmd](Homework5.Rmd)
+- [Homework5.html](Homework5.html)
 
 
 

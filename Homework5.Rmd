@@ -1,0 +1,231 @@
+---
+title: "Homework 5"
+author: "Carolyn Hanrahan"
+date: "2023-02-15"
+output: html_document
+---
+
+## Question 1
+
+Assign to the variable n_dims a single random integer between 3 and 10.
+
+```{r}
+n_dims <- runif(n=1, min=3, max=10)
+print(n_dims)
+```
+  - Here I used the runif (random uniform distribution) function to pick a random number between 3 and 10 and assign it to the variable.
+
+Create a vector of consecutive integers from 1 to n_dims2
+```{r}
+vector1 <- c(1:n_dims^2)
+print(vector1)
+```
+  - Here I used the concatenate function to create a vector with values from 1 to n_dims squared. 
+  
+Use the sample function to randomly reshuffle these values.
+```{r}
+shuffle_vector <- sample(x=vector1)
+
+```
+  - I decided to call the shuffled version of this vector "shuffle_vector"
+
+create a square matrix with these elements.
+```{r}
+matrix1 <- matrix(data=shuffle_vector, nrow=n_dims, ncol=n_dims, byrow=FALSE)
+
+```
+   - Because n_dims will change when it is regenerated each time, the matrix row and column were assigned as the variable n_dims so the matrix will change, as well. 
+
+
+print out the matrix.
+
+```{r}
+print(matrix1)
+
+```
+
+find a function in r to transpose the matrix.
+
+```{r}
+transpose_matrix <- t(matrix1)
+
+```
+  - Searched for "transpose" function on Google!
+
+print it out again and note how it has changed.
+
+```{r}
+print(transpose_matrix)
+
+```
+
+calculate the sum and the mean of the elements in the first row and then the last row.
+
+```{r}
+print(transpose_matrix)
+```
+sum: 
+```{r}
+
+sum <- sum(transpose_matrix[1, ] + transpose_matrix[n_dims, ])
+
+print(sum)
+
+```
+mean: 
+```{r}
+mean <- mean(transpose_matrix[1, ] + transpose_matrix[n_dims, ]) 
+print(mean)
+```
+ - Note that I used the variable n_dims as the last row of the vector in the above computations because the number of rows and columns will shift when new n_dims values are computed. 
+ 
+ 
+
+read about the eigen() function and use it on your matrix
+
+
+```{r}
+?eigen()
+
+eigen <- eigen(transpose_matrix)
+print(eigen)
+
+```
+
+look carefully at the elements of $values and $vectors in the output. What kind of numbers are these?
+
+   - these are complex numbers! They have imaginary numbers as indicated by the i.
+
+dig in with the typeof() function to figure out their type.
+
+```{r}
+eigen$values
+typeof(eigen$values)
+```
+
+if have set your code up properly, you should be able to re-run it and create a matrix of different size because n_dims will change.
+
+
+## Question 2 
+Create a list with the following named elements:
+
+my_matrix, which is a 4 x 4 matrix filled with random uniform values
+my_logical which is a 100-element vector of TRUE or FALSE values. Do this efficiently by setting up a vector of random values and then applying an inequality to it.
+my_letters, which is a 26-element vector of all the lower-case letters in random order.
+```{r}
+runif <- runif(n=16, min=0, max= 100)
+my_matrix <- matrix(data=runif, nrow=4, ncol=4)
+
+print(my_matrix)
+
+```
+```{r}
+my_other_vector <- runif(n=100, min=0, max=100)
+
+my_logical <- my_other_vector >45 
+
+print(my_logical)
+```
+```{r}
+my_letters <- letters
+print(my_letters)
+
+```
+
+
+Then, complete the following steps:
+
+create a new list, which has the element[2,2] from the matrix, the second element of the logical vector, and the second element of the letters vector.
+
+```{r}
+my_list <- list(my_matrix[2,2], my_logical[2], my_letters[2])
+
+print(my_list)
+```
+
+use the typeof() function to confirm the underlying data types of each component in this list
+```{r}
+typeof(my_list[[1]])
+typeof(my_list[[2]])
+typeof(my_list[[3]])
+```
+
+combine the underlying elements from the new list into a single atomic vector with the c() function.
+```{r}
+
+atomic_vector <-c(my_list[[1]],my_list[[2]],my_list[[3]])
+print(atomic_vector)
+
+```
+  - In the above code, I called upon the values in position 1, 2, and 3 in the list, and concatenated them into a vector.
+  
+what is the data type of this vector?
+
+```{r}
+typeof(atomic_vector)
+```
+## Question 3 
+Create a data frame with the two variables (= columns) and 26 cases (= rows) below:
+
+
+call the first variable my_unis and fill it with 26 random uniform values from 0 to 10
+
+```{r}
+my_unis <- runif(26, min=0, max=10)
+```
+call the second variable my_letters and fill it with 26 capital letters in random order.
+```{r}
+my_letters2 <- sample(LETTERS)
+print(my_letters2)
+```
+
+  - I used "LETTERS" which denotes all 26 letters in their capitalized form. 
+
+```{r}
+data_frame <- data.frame(my_unis, my_letters2)
+print(data_frame)
+```
+
+for the first variable, use a single line of code in R to select 4 random rows and replace the numerical values in those rows with NA.
+
+```{r}
+print(data_frame)
+
+data_frame[sample(1:26, 4), 1] <- NA
+
+data_frame
+
+```
+  - Because there are 26 rows, you can randomly sample 1:26 and it will select rows for you. I specified 4 in my code to indicate that I am looking to sample 4 rows, and used the <-NA to assign those four rows the values NA. Note that ( ,1) means every row, column number 1).
+
+
+for the first variable, write a single line of R code to identify which rows have the missing values.
+```{r}
+is.na(data_frame)
+```
+
+re-order the entire data frame to arrange the second variable in alphabetical order
+
+```{r}
+
+data_frame[order(my_letters2), ]
+
+
+reorder_data_frame <-data_frame[order(my_letters2), ]
+
+```
+
+```{r}
+print(reorder_data_frame)
+
+```
+calculate the column mean for the first variable.
+
+```{r}
+mean(data_frame[ ,1], na.rm= TRUE)
+data_frame[ ,1]
+
+```
+  - to calculate the column mean for the first variable, I used the mean function, referencing our data frame, and all of the rows in it. I specifically had to say na.rm = TRUE in order to remove the Null values. Having null values in our calculation would cause issues. Thank you :)
+
+
