@@ -1,0 +1,215 @@
+---
+title: "Homework7"
+author: "Carolyn Hanrahan"
+date: "2023-03-08"
+output: html_document
+---
+
+
+Part 1: loading libraries, simulating a fake dataset with a random assortment of numbers
+
+```{r setup, include=FALSE}
+library(ggplot2) # for graphics
+library(MASS) # for maximum likelihood estimation
+library(tidyr)
+```
+
+
+{r cars}
+z <- rnorm(n=3000,mean=0.2)
+z <- data.frame(1:3000,z)
+names(z) <- list("ID","myVar")
+z <- z[z$myVar>0,]
+str(z)
+summary(z$myVar)
+
+
+
+Using data from online: 
+```{r}
+z <- read.table("New_CoyLM5.csv",header=TRUE,sep=",")
+str(z)
+summary(z)
+
+z <- z%>% drop_na
+
+str(z)
+summary(z)
+
+
+```
+
+
+
+Plotting a histogram of the data: 
+
+```{r}
+p1 <- ggplot(data=z, aes(x=BM, y=..density..,)) +
+  geom_histogram(color="grey60",fill="cornsilk",size=0.2) 
+print(p1)
+
+```
+
+
+Empirical Density Curve (empirical curve that is fitted to the data)
+
+```{r}
+p1 <-  p1 +  geom_density(linetype="dotted",size=0.75)
+print(p1)
+
+```
+
+Getting the maximum likelihood parameters for normal: Next, fit a normal distribution to your data and grab the maximum likelihood estimators of the two parameters of the normal, the mean and the variance
+
+```{r}
+normPars <- fitdistr(z$BM,"normal")
+
+print(normPars)
+str(normPars)
+normPars$estimate["mean"] # note structure of getting a named attribute
+
+```
+
+
+Plot normal probability density: generating probability density for the normal distribution. Notice that the best-fitting normal distribution (red curve) for these data actually has a biased mean. That is because the data set has no negative values, so the normal distribution (which is symmetric) is not working well.
+
+```{r}
+meanML <- normPars$estimate["mean"]
+sdML <- normPars$estimate["sd"]
+
+xval <- seq(0,max(z$BM),len=length(z$BM))
+
+ stat <- stat_function(aes(x = xval, y = ..y..), fun = dnorm, colour="red", n = length(z$myVar), args = list(mean = meanML, sd = sdML))
+ p1 + stat
+```
+
+Plot exponential probability density (adds curve for exponential)
+
+```{r}
+expoPars <- fitdistr(z$BM,"exponential")
+rateML <- expoPars$estimate["rate"]
+
+stat2 <- stat_function(aes(x = xval, y = ..y..), fun = dexp, colour="blue", n = length(z$BM), args = list(rate=rateML))
+ p1 + stat + stat2
+
+```
+
+Plot uniform probability density 
+
+```{r}
+stat3 <- stat_function(aes(x = xval, y = ..y..), fun = dunif, colour="darkgreen", n = length(z$BM), args = list(min=min(z$BM), max=max(z$BM)))
+ p1 + stat + stat2 + stat3
+
+
+```
+
+Plot gamma probability density
+
+```{r}
+gammaPars <- fitdistr(z$BM,"gamma")
+shapeML <- gammaPars$estimate["shape"]
+rateML <- gammaPars$estimate["rate"]
+
+stat4 <- stat_function(aes(x = xval, y = ..y..), fun = dgamma, colour="brown", n = length(z$BM), args = list(shape=shapeML, rate=rateML))
+ p1 + stat + stat2 + stat3 + stat4
+
+```
+
+Determining the relevant rate and shape variables for the gamma distribution: 
+
+```{r}
+normPars2 <- fitdistr(z$BM,"gamma")
+
+
+print(normPars2)
+str(normPars2)
+normPars$estimate["shape"] # note structure of getting a named attribute
+
+```
+
+
+
+Plot beta probability density
+
+```{r}
+pSpecial <- ggplot(data=z, aes(x=BM/(max(BM + 0.1)), y=..density..)) +
+  geom_histogram(color="grey60",fill="cornsilk",size=0.2) + 
+  xlim(c(0,1)) +
+  geom_density(size=0.75,linetype="dotted")
+
+betaPars <- fitdistr(x=z$BM/max(z$BM + 0.1),start=list(shape1=1,shape2=2),"beta")
+shape1ML <- betaPars$estimate["shape1"]
+shape2ML <- betaPars$estimate["shape2"]
+
+statSpecial <- stat_function(aes(x = xval, y = ..y..), fun = dbeta, colour="orchid", n = length(z$myVar), args = list(shape1=shape1ML,shape2=shape2ML))
+pSpecial + statSpecial
+
+
+```
+
+This one has to be shown in its own plot because the raw data must be re-scaled so they are between 0 and 1, and then they can be compared to the beta.
+
+
+## Part 2: Reading in my own data. 
+For part 2 of the homework assignment, I read in my own dataset from online (New_CoyLM5.csv) and decided to look at the Body Mass (BM) value. I went through and changed this variable within the code. 
+
+
+## Part 3: Find best-fitting distribution. 
+Take a look at the second-to-last graph which shows the histogram of your data and 4 probability density curves (normal, uniform, exponential, gamma) that are fit to the data. Find the best-fitting distribution for your data. For most data sets, the gamma will probably fit best, but if you data set is small, it may be very hard to see much of a difference between the curves. The beta distribution in the final graph is somewhat special. It often fits the data pretty well, but that is because we have assumed the largest data point is the true upper bound, and everything is scaled to that. The fit of the uniform distribution also fixes the upper bound. The other curves (normal, exponential, and gamma) are more realistic because they do not have an upper bound.
+
+   For my dataset, it seems like the gamma distribution fits best, although much of the histograms appear similar. 
+
+## Part 4: Simulate a new data set.
+Using the best-fitting distribution, go back to the code and get the maximum likelihood parameters. Use those to simulate a new data set, with the same length as your original vector, and plot that in a histogram and add the probability density curve. Right below that, generate a fresh histogram plot of the original data, and also include the probability density curve.
+
+
+  Simulating datatset: Here I used the rgamma() function and the parameters from my other dataset to simulate a new dataset. I indicated that I wanted 499 observations with a "shape" of 0.189520433, as indicated by the maximum likelihood parameters. 
+
+```{r}
+
+simdata <- rgamma(280, 0.189520433)
+head(simdata)
+
+simdata <-data.frame(simdata)
+
+simdata2 <- rgamma(280, 0.189520433)
+```
+
+
+
+```{r}
+p2 <- ggplot(data=simdata, aes(x=simdata, y=..density..)) +
+  geom_histogram(color="grey60",fill="cornsilk",size=0.2) 
+print(p2)
+
+```
+
+
+Best-fitting distribution: gamma distribution of my simulated data:
+
+```{r}
+gammaPars <- fitdistr(simdata2,"gamma")
+shapeML <- gammaPars$estimate["shape"]
+rateML <- gammaPars$estimate["rate"]
+
+stat4 <- stat_function(aes(x = xval, y = ..y..), fun = dgamma, colour="brown", n = length(simdata), args = list(shape=shapeML, rate=rateML))
+ p1 + stat + stat2 + stat3 + stat4
+
+```
+
+Comparing to my other gamma distribution: 
+
+```{r}
+gammaPars2 <- fitdistr(z$BM,"gamma")
+shapeML <- gammaPars$estimate["shape"]
+rateML <- gammaPars$estimate["rate"]
+
+stat4 <- stat_function(aes(x = xval, y = ..y..), fun = dgamma, colour="brown", n = length(z$BM), args = list(shape=shapeML, rate=rateML))
+ p1 + stat + stat2 + stat3 + stat4
+
+```
+
+My simulated data and my actual data appear the same in the gamma distribution graphs above. 
+
+
+

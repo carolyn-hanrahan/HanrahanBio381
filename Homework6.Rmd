@@ -1,0 +1,27 @@
+---
+title: "Homework6"
+author: "Carolyn Hanrahan"
+date: "2023-03-04"
+output: html_document
+---
+
+```{}
+
+?install.packages("tidyverse")
+
+```
+
+```{r setup, include=FALSE}
+library(tidyverse)
+data(iris)
+read.csv("site_by_variables.csv")
+read.csv("site_by_species.csv")
+library(vctrs)
+library(dplyr)
+
+
+```
+
+Question 1: There are 150 observations in the dataset and 5 variables. 
+
+Question 2: 
