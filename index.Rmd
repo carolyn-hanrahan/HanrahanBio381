@@ -30,5 +30,7 @@ output: html_document
 
 ## <span style = "color:purple;" >Homework 7: Feb.15th, 2023</span>
 - [Homework7](Homework7.html)
+- [Homework7](Homework7.Rmd)
+
 
 
