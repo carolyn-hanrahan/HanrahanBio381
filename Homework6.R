@@ -18,6 +18,7 @@ iris1 <- data.frame(iris)
 iris1 <- filter(iris, Species == "virginica"| Species=="versicolor", Sepal.Length > 6, Sepal.Width >2.5)
 
 print(iris1)
+
 # There are 56 observations and 5 variables in the Iris1 dataset. 
 
 #Question 3: Now, create a iris2 data frame from iris1 that contains only the columns for Species, Sepal.Length, and Sepal.Width. How many observations and variables are in the data set?
@@ -69,6 +70,9 @@ irisfinal <- iris %>%
   print(irisfinal)
 
   # Question 9: Create a ‘longer’ data frame using the original iris data set with three columns named “Species”, “Measure”, “Value”.
+ 
+iris 
+print(iris)
   
-  
-
+iris %>%
+  pivot_longer(cols=)

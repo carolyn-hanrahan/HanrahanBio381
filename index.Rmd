@@ -13,25 +13,27 @@ output: html_document
 
 - For homework number two I created this index file. 
 
-## <span style = "color: green;" >Homework 3: Feb.1st, 2023</span> 
+## <span style = "color: orange;" >Homework 3: Feb.1st, 2023</span> 
 
-- [Homework3](homework3.html)
+- [Homework3.html](homework3.html)
 
-## <span style = "color:blue;" >Homework 4: Feb.8th, 2023</span>
-- [Homework4](Homework4.html)  
+## <span style = "color:green;" >Homework 4: Feb.8th, 2023</span>
+- [Homework4.html](Homework4.html)  
 
 - [Homework4Rmd](Homework4.Rmd)
 
-## <span style = "color:purple;" >Homework 5: Feb.15th, 2023</span>
+## <span style = "color:blue;" >Homework 5: Feb.15th, 2023</span>
 - [Homework5.Rmd](Homework5.Rmd)
 - [Homework5.html](Homework5.html)
 
-## <span style = "color:black;" >Homework 6: March 8th, 2023</span>
-- [Homework 6](Homework6.html)
+## <span style = "color:purple;" >Homework 6: March 8th, 2023</span>
+- [Homework 6.html](Homework6.html)
 
-## <span style = "color:grey;" >Homework 7: Feb.15th, 2023</span>
-- [Homework7](Homework7.html)
-- [Homework7](Homework7.Rmd)
+## <span style = "color:grey;" >Homework 7: March 8th, 2023</span>
+- [Homework7.html](Homework7.html)
+- [Homework7.Rmd](Homework7.Rmd)
 
+## <span style = "color:black;" >Homework 8: March 22nd, 2023</span>
+-[Homework8.Rmd](Homework8.Rmd)
 
 
