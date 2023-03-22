@@ -34,6 +34,7 @@ output: html_document
 - [Homework7.Rmd](Homework7.Rmd)
 
 ## <span style = "color:black;" >Homework 8: March 22nd, 2023</span>
--[Homework8.Rmd](Homework8.Rmd)
+- [Homework8.Rmd](Homework8.Rmd)
+- [Homework8.html](Homework8.html)
 
 

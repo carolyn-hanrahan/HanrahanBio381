@@ -1,30 +1,221 @@
 ---
-title: "Homework8"
+title: "Homework8: Exploring Hypotheses with Fake Data"
 author: "Carolyn Hanrahan"
 date: "2023-03-22"
 output: html_document
 ---
 
+## Loading Libraries: 
+```{r}
+library(sqldf)
+library(dplyr)
+library(tidyverse)
+
+```
+
+
+# Question 1
+Think about an ongoing study in your lab (or a paper you have read in a different class), and decide on a pattern that you might expect in your experiment if a specific hypothesis were true.
+  
+   - About the data: built in dataset in R titled "ToothGrowth". "ToothGrowth data set contains the result from an experiment studying the effect of vitamin C on tooth growth in 60 Guinea pigs. Each animal received one of three dose levels of vitamin C (0.5, 1, and 2 mg/day) by one of two delivery methods, (orange juice or ascorbic acid (a form of vitamin C and coded as VC)"
+ 
+   - Based on the "ToothGrowth" built in dataset in R, I would expect a positive correlation between vitamin C and tooth growth. I would anticipate the treatment group of 2mg/day to have the highest amount of tooth growth compared to the other treatment groups (0.5mg and 1mg)
+   
+# Question 2
+To start simply, assume that the data in each of your treatment groups follow a normal distribution. Specify the sample sizes, means, and variances for each group that would be reasonable if your hypothesis were true. You may need to consult some previous literature and/or an expert in the field to come up with these numbers.
+
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+data("ToothGrowth")
+head <- head(ToothGrowth)
+print(head)
+```
+  - sample size: 60 
+
+calculating means: 
+```{r}
+summary <- summary(ToothGrowth)
+
+print(summary)
+
 ```
 
-## R Markdown
+Mean for treatment 0.5 mg:
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+```{r}
+treatment0.5 <- filter(ToothGrowth, dose==0.5)
+print(treatment0.5)
+TreatmentMean0.5 <- mean(treatment0.5$len)
+print(TreatmentMean0.5)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+```
+Variance for treatment 0.5 mg: 
+```{r}
+VarianceTreatment0.5 <- var(treatment0.5$len)
+print(VarianceTreatment0.5)
 
-```{r cars}
-summary(cars)
+```
+Standard Deviation for 0.5 mg: 
+
+```{r}
+StandardDev0.5 <- sd(treatment0.5$len)
+print(StandardDev0.5)
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+Mean for Treatment 1 mg:
+
+```{r}
+treatment1 <- filter(ToothGrowth, dose==1)
+print(treatment1)
+TreatmentMean1 <-mean(treatment1$len)
+print(TreatmentMean1)
+
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Variance for Treatment 1 mg: 
+
+```{r}
+VarianceTreatment1 <- var(treatment1$len)
+print(VarianceTreatment1)
+
+```
+
+
+Standard Deviation for Treatment 1 mg: 
+
+```{r}
+StandardDev1 <- sd(treatment1$len)
+
+print(StandardDev1)
+
+```
+
+Mean for treatment 2 mg: 
+
+```{r}
+treatment2 <- filter(ToothGrowth, dose==2)
+print(treatment2)
+TreatmentMean2 <- mean(treatment2$len)
+print(TreatmentMean2)
+
+```
+
+Variance for treatment 2 mg: 
+
+```{r}
+
+VarianceTreatment2 <- var(treatment2$len)
+print(VarianceTreatment2)
+```
+
+Standard Deviation for Treatment 2 mg: 
+
+```{r}
+StandardDev2 <- sd(treatment2$len)
+print(StandardDev2)
+
+```
+
+
+# Question 3: 
+Using the methods we have covered in class, write code to create a random data set that has these attributes. Organize these data into a data frame with the appropriate structure.
+
+```{r}
+
+NormalDistribution0.5 <- rnorm(20, mean=10.605, sd=4.499763)
+
+NormalDistribution1 <- rnorm(20, mean=19.735, sd=4.415436)
+
+NormalDistribution2 <- rnorm(20, mean=26.1, sd=3.77415)
+
+
+
+DataFrame <- data.frame(Treatment0.5= NormalDistribution0.5, Treatment1= NormalDistribution1, Treatment2= NormalDistribution2)
+
+print(DataFrame)
+
+Pivot <- pivot_longer(DataFrame,1:3, names_to = "Treatment")
+print(Pivot)
+
+Pivot$Treatment<-as.factor(Pivot$Treatment)
+
+```
+
+# Question 4: 
+Now write code to analyze the data (probably as an ANOVA or regression analysis, but possibly as a logistic regression or contingency table analysis. Write code to generate a useful graph of the data. 
+
+```{r}
+
+boxplot <- boxplot(formula=Pivot$value~Pivot$Treatment )
+
+```
+  - it is evident in this boxplot that there is a positive relationship between amount of vitamin C (0.5mg, 1mg, 2mg) and tooth length (y-axis)!
+
+```{r}
+
+ANOVA <- aov(Pivot$value~Pivot$Treatment)
+
+print(ANOVA)
+summary(ANOVA)
+
+```
+There is a p-value of 1.54e-13 for this analysis. Because this is much less than 0.05, there is a statistically significant relationship. 
+
+
+
+# Question 5: 
+Try running your analysis multiple times to get a feeling for how variable the results are with the same parameters, but different sets of random numbers.
+
+  - I tried changing my random normal distribution datasets by changing the sample size from 20 to 50 and found that the ANOVA indicated an even more statistically significant relationship. 
+
+# Question 6: 
+Now begin adjusting the means of the different groups. Given the sample sizes you have chosen, how small can the differences between the groups be (the “effect size”) for you to still detect a significant pattern (p < 0.05)?
+
+```{r}
+
+NormalDistribution0.5 <- rnorm(20, mean=10.605, sd=4.499763)
+
+NormalDistribution1 <- rnorm(20, mean=11.605, sd=4.415436)
+
+NormalDistribution2 <- rnorm(20, mean=12.605, sd=3.77415)
+
+
+
+DataFrame <- data.frame(Treatment0.5= NormalDistribution0.5, Treatment1= NormalDistribution1, Treatment2= NormalDistribution2)
+
+print(DataFrame)
+
+Pivot <- pivot_longer(DataFrame,1:3, names_to = "Treatment")
+print(Pivot)
+
+Pivot$Treatment<-as.factor(Pivot$Treatment)
+
+```
+
+
+
+
+```{r}
+
+ANOVA <- aov(Pivot$value~Pivot$Treatment)
+
+print(ANOVA)
+summary(ANOVA)
+
+```
+  - Using Means that are 10.605, 11.605, and 12.605, we get a p-value of 0.0538, which is just barely not statistically significant. Note that each time this code runs, I get a slightly different value that is not statistically significant (see above code)
+
+# Question 7: 
+Alternatively, for the effect sizes you originally hypothesized, what is the minimum sample size you would need in order to detect a statistically significant effect? Again, run the model a few times with the same parameter set to get a feeling for the effect of random variation in the data.
+
+   - I was able to change the sample size for each of the normal distributions until I reached a sample size of 2 before I got a non-statistically significant p-value. Therefore I would need a minimum sample size of 3 to get a statistically significant relationship. 
+
+# Question 8: 
+Write up your results in a markdown file, organized with headers and different code chunks to show your analysis. Be explicit in your explanation and justification for sample sizes, means, and variances.
+
+  - Done! Overall I found that I was able to have a small sample size with these parameters (mean, standard deviation) and still see a statistically significant relationship. I was also able to make the means of each dataset much closer and still get a statistically significant relationship, as well. 
+
+# Question 9: 
+  -  I unfortunately do not have time to repeat this procedure with another type of distribution. 
+
