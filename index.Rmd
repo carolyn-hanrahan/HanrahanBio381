@@ -37,6 +37,11 @@ output: html_document
 - [Homework8.Rmd](Homework8.Rmd)
 - [Homework8.html](Homework8.html)
 
-## <span style = "color:black;" >Homework 9: March 29th, 2023</span>
+## <span style = "color:dark grey;" >Homework 9: March 29th, 2023</span>
 - [Homework9.html](Homework9.html)
 - [Homework9Functions](Functions_Homework9.R)
+
+## <span style = "color:brown;" >Homework 10: April 11th, 2023</span>
+- [Homework10.html](Homework10.html)
+- [Homework10.Rmd](Homework10.Rmd)
+
