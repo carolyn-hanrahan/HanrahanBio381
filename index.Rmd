@@ -29,11 +29,11 @@ output: html_document
 ## <span style = "color:purple;" >Homework 6: March 8th, 2023</span>
 - [Homework 6.html](Homework6.html)
 
-## <span style = "color:grey;" >Homework 7: March 8th, 2023</span>
+## <span style = "color:darkgrey;" >Homework 7: March 8th, 2023</span>
 - [Homework7.html](Homework7.html)
 - [Homework7.Rmd](Homework7.Rmd)
 
-## <span style = "color:black;" >Homework 8: March 22nd, 2023</span>
+## <span style = "color:cadetblue;" >Homework 8: March 22nd, 2023</span>
 - [Homework8.Rmd](Homework8.Rmd)
 - [Homework8.html](Homework8.html)
 
@@ -44,4 +44,12 @@ output: html_document
 ## <span style = "color:brown;" >Homework 10: April 11th, 2023</span>
 - [Homework10.html](Homework10.html)
 - [Homework10.Rmd](Homework10.Rmd)
+
+## <span style = "color:green;" >Homework 11: April 11th, 2023</span>
+- Homework11 needs to be revised and added upon and I will hopefully update it! Please see file below for the beginning of what I have.
+- [Homework11.html](Homework11.html)
+
+## <span style = "color:blueviolet;" >Homework 12: April 19th, 2023</span>
+- [Homework12.html](Homework12.html)
+- [Homework12.Rmd](Homework12.Rmd)
 
