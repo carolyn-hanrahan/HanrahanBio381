@@ -1,0 +1,203 @@
+---
+title: "Homework11"
+author: "Carolyn Hanrahan"
+date: "2023-04-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# Libraries 
+
+library(tidyverse)
+
+```
+# Getting the datasets 
+  - To create my mutliple datasets for batch processing, I filtered one dataset with Isla de Estados fish data into four datasets by four different sites. See code below:
+
+```{r}
+library(tidyverse)
+
+x<- read.csv("Isla_de_los_Estados_fish_data.csv")
+
+  
+  
+  y <- x%>%
+    filter(Location=="Merle Cove")
+  output <- paste0("Merle Cove")
+  print(y)
+  setwd("C:/Users/Carolyn/Desktop/Computational Biology/HanrahanBio381")
+  write.csv(y,file=output,sep=",",col.names=TRUE,row.names=FALSE)
+
+
+z <- x%>%
+    filter(Location=="Puerto Cook")
+  output <- paste0("Puerto Cook")
+  print(z)
+  #setwd("~/Users/Carolyn/Desktop/ComputationalBiology/HanrahanBio381")
+  write.csv(z,file=output,sep=",",col.names=TRUE,row.names=FALSE)
+
+
+
+c <- x%>%
+    filter(Location=="Puerto Lasserre")
+  output <- paste0("Puerto Lasserre")
+  print(c)
+ # setwd("~/Users/Carolyn/Desktop/ComputationalBiology/HanrahanBio381")
+  write.csv(c,file=output,sep=",",col.names=TRUE,row.names=FALSE)
+
+
+d <- x%>%
+    filter(Location=="Puerto Back")
+  output <- paste0("Puerto Back")
+  print(d)
+ # setwd("~/Users/Carolyn/Desktop/ComputationalBiology/HanrahanBio381")
+  write.csv(d,file=output,sep=",",col.names=TRUE,row.names=FALSE)
+
+
+```
+
+# Doing some type of analysis on my multiple files.
+  - For my analysis, I decided to create a function that calculates the sum of species number. I will run this function on all of my four datasets to determine which site has the highest number of species total.  
+
+# Sourcing my function 
+```{r}
+source("Homework11_fun.R")
+```
+# Batch Processing/For Loop?
+
+```{r}
+#Creating an empty file 
+file.create("empty.csv")
+
+```
+
+
+```{r}
+
+# Accessing my four files: 
+
+
+file_names <- list.files(path="C:/Users/Carolyn/Desktop/Computational Biology/HanrahanBio381/Homework11",
+                         pattern="*.csv")
+
+
+print(file_names)
+
+# Create data frame to hold file summary statistics
+ID <- seq_along(file_names) 
+file_name <- file_names
+sum <- rep(NA,length(file_names))
+
+stats_out <- data.frame(ID,file_name, sum)
+                        
+print(stats_out)
+
+setwd("C:/Users/Carolyn/Desktop/Computational Biology/HanrahanBio381")
+
+
+
+# batch process by looping through individual files
+for (i in seq_along(file_names)) {
+ data<-read.table(file=file_names[i], sep=",", header=TRUE) # read in next data file
+  
+  d_clean <- data[complete.cases(data),] # get clean cases
+  
+  . <- Sum_Species_Number(d=d_clean) # pull regression stats from clean file
+ 
+stats_out[i,3:5] <- unlist(.) 
+  
+}
+
+
+
+write.table(., file="empty.csv", sep=",", row.names=FALSE, append=TRUE)
+
+  return("empty.csv")
+
+print(d_clean)
+
+
+print(stats_out)
+```
+
+#Nick's code: 
+
+
+
+<!-- # Batch Processing  -->
+<!-- # Carolyn Hanrahan  -->
+<!-- # April 6th, 2023  -->
+
+<!-- #-------------------------------------------- -->
+<!-- # Global variables -->
+<!-- file_folder <- "RandomFiles/" -->
+<!-- n_files <- 100 -->
+<!-- file_out <- "StatsSummary.csv" -->
+<!-- #-------------------------------------------- -->
+<!-- # source functions  -->
+<!-- source("Functions/FileBuilder_fun.R") -->
+<!-- source("Functions/RegStats_fun.R") -->
+
+
+<!-- # Create data frame to hold file summary statistics -->
+<!-- ID <- seq_along(file_names) ######### -->
+<!-- file_name <- file_names -->
+<!-- slope <- rep(NA,length(file_names)) -->
+<!-- p_val <- rep(NA,length(file_names)) -->
+<!-- r2 <- rep(NA,length(file_names)) -->
+
+<!-- stats_out <- data.frame(ID,file_name,slope,p_val,r2) -->
+<!-- head(stats_out) -->
+
+<!-- ####################################### BATCH PROCESSING  -->
+
+<!-- # batch process by looping through individual files -->
+<!-- setwd("C:/Users/Carolyn/Desktop/Computational Biology/HanrahanBio381/Homework11") -->
+
+<!-- for (i in seq_along(file_names)) { -->
+<!--   data <- read.table(file=paste(file_folder,file_names[i],sep=""), -->
+<!--                      sep=",", -->
+<!--                      header=TRUE) # read in next data file -->
+
+<!--   d_clean <- data[complete.cases(data),] # get clean cases -->
+
+<!--   . <- reg_stats(d_clean) # pull regression stats from clean file -->
+<!--   stats_out[i,3:5] <- unlist(.) # unlist, copy into last 3 columns -->
+
+<!-- } -->
+
+
+<!-- # set up output file and incorporate time stamp and minimal metadata -->
+<!-- write.table(cat("# Summary stats for ", -->
+<!--                 "batch processing of regression models","\n", -->
+<!--                 "# timestamp: ",as.character(Sys.time()),"\n", -->
+<!--                 "# CRH","\n", -->
+<!--                 "# ------------------------", "\n", -->
+<!--                 "\n", -->
+<!--                 file=file_out, -->
+<!--                 row.names="", -->
+<!--                 col.names="", -->
+<!--                 sep="")) -->
+
+<!-- # now add the data frame -->
+<!-- write.table(x=stats_out, -->
+<!--             file=file_out, -->
+<!--             row.names=FALSE, -->
+<!--             col.names=TRUE, -->
+<!--             sep=",", -->
+<!--             append=TRUE) -->
+
+<!-- ####################################### ORGANIZING SOURCE FILES  -->
+
+<!-- # typical contents of uberscript -->
+<!-- source ('Functions.R') -->
+<!-- source('ModelScript.R') # creates object with saveRDS -->
+<!-- source('GraphicsScript.R') # loads object with readRDS -->
+
+
+
+
+
+
+
+

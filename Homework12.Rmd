@@ -1,0 +1,190 @@
+---
+title: "Homework 12"
+author: "Carolyn Hanrahan"
+date: "April 19, 2023"
+output: html_document
+---
+
+# Homework 11
+  - For homework 11 I plan on using the ToothGrowth built-in dataset in R to practice making some fun new ggplot graphics and base R plots. I begin by creating some basic plots and work on increasingly improving my data visualiazation through multiple iterations. 
+  
+  
+## Importing libraries and data: 
+
+
+```{r}
+library(ggplot2)
+library(ggthemes)
+library(patchwork)
+data("ToothGrowth")
+head(ToothGrowth)
+
+d <- ToothGrowth
+```
+## Some Practice Graphs 
+
+```{r}
+
+hist(d$len) 
+table(d$len)
+plot(table(d$len))
+
+```
+
+## Basic Boxplot
+
+```{r}
+e <- boxplot(d$len~d$dose)
+
+```
+
+
+
+## Utilizing ggplot :)
+
+
+```{r}
+
+p1 <- ggplot(data=d) +
+               aes(x=dose,y=len)+
+               geom_point()
+
+print(p1)
+
+```
+  - Adding more complexity...
+
+```{r}
+p2 <- p1 + theme_solarized()
+print(p2)
+```
+
+
+  - and more...
+```{r}
+p3 <- ggplot(data=d) +
+  aes(x=dose,y=len) + 
+  geom_point(size=7,
+             shape=24,
+             color="black",
+             fill="steelblue") +
+  labs(title="Vitamin C Treatment",
+       subtitle="vitamin c given in units of 0.5, 1, and 2 mg",
+       x="Vitamin C treatment (mg)",
+       y="Tooth Length (mm)") +
+  xlim(0,2) + ylim(0,40)
+
+print(p3)
+```
+
+  - Testing out some totally new stuff from the R graph gallery: Ridge plot
+  
+```{r}
+
+# library
+library(ggridges)
+library(ggplot2)
+library(viridis)
+library(hrbrthemes)
+
+
+x <- ggplot(data=d, aes(x = len, y = dose, fill = dose, group = dose)) +
+  geom_density_ridges() +
+  theme_ridges() + 
+  theme(legend.position = "left")
+  labs(title='Tooth Length by Vitamin C Treatment Group')
+
+
+print(x)
+
+
+
+```
+
+  - Progressively adding more to the ridge plot...
+  
+  
+```{r}
+
+y <- ggplot(d, aes(x = len, y = dose, fill = dose, group = dose)) +
+  geom_density_ridges_gradient(scale = 3, rel_min_height = 0.01) +
+  scale_fill_viridis_c(name = "Dose (mg)", option = "F") +
+  labs(title = 'Tooth Length by Vitamin C Dosage')+
+  labs(caption="A graph created by Carolyn Hanrahan on 4/19/23")
+
+print(y)
+
+ggsave("ToothLengthRidgeGraph.pdf")  #saving my graph to a pdf.
+
+
+
+```
+
+```{r}
+z<- ggplot(d, aes(x = len, y = dose)) + 
+  geom_density_ridges(scale = 1) + facet_wrap(~dose)
+
+
+print(z)
+
+```
+
+
+  - this graph puts each plot into its own little section. 
+
+
+## A New type of plot: 
+
+  - 3D plot!This plot is not very well suited to this data because we only have 2 numeric categories. I am going to keep the code here, though:
+  
+```{r}
+library(rgl)
+
+
+
+plot3d <- plot3d( 
+  x=d$dose, y=d$len, z=d$supp, 
+  col = "red","blue","yellow", 
+  type = 's', 
+  radius = .1,
+  xlab="Dose", ylab="Tooth Length", zlab="Sup")
+
+print(plot3d)
+
+
+
+
+```
+
+## Examining Supplement Type and Tooth Length (Orange juice vs.Ascorbic Acid)
+
+```{r}
+
+boxplot(d$len~d$supp)
+
+
+s <- ggplot(data=d) +
+  aes(x=supp,y=len,fill=supp) + 
+  geom_boxplot() + 
+  theme(legend.position="none")+
+  plot_annotation(title="Tooth Length vs.Supplement Type",caption="Graph made by Carolyn Hanrahan on 4/19/23")
+
+print(s)
+
+
+```
+
+  - I feel as though this is a very nice and informative graph. You can clearly see that the supplement type of OJ result in greater tooth length. 
+
+## Saving my Graph 
+
+  - I saved my last graph and named it "s"
+
+```{r}
+
+ggsave("SupplementType.pdf")
+
+```
+## Conclusion 
+  - Overall I really enjoyed exploring the different graphing options in this lab!I feel like the last boxplot and some of the ridgeline graphs are effective examples of decent data visualizations. 
+

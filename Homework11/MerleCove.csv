@@ -1,0 +1,8 @@
+"Date","Region","Location","Lat","Long","Habitat","Temp_water_C","Wave_exposure","STATION","TRANSECT","DATATYP","SPECIES","NUMBER","Min","Max","Avg","Num_m.2"
+"13-Feb-18","Isla de los Estados","Merle Cove",-54.792,-64.08,"Kelp bed",9,"South",2,"A","QUAN","Patagonotothen sima",3,10,12,11,0.06
+"13-Feb-18","Isla de los Estados","Merle Cove",-54.792,-64.08,"Kelp bed",9,"South",2,"A","QUAN","Patagonotothen cornucola",2,16,20,18,0.04
+"13-Feb-18","Isla de los Estados","Merle Cove",-54.792,-64.08,"Kelp bed",9,"South",2,"A","QUAN","Patagonotothen squamiceps",3,10,12,11,0.06
+"13-Feb-18","Isla de los Estados","Merle Cove",-54.792,-64.08,"Kelp bed",9,"South",2,"A","QUAN","Patagonotothen tessellata",8,15,20,17.5,0.16
+"13-Feb-18","Isla de los Estados","Merle Cove",-54.792,-64.08,"Kelp bed",9,"South",2,"B","QUAN","Patagonotothen sima",3,11,12,11.5,0.06
+"13-Feb-18","Isla de los Estados","Merle Cove",-54.792,-64.08,"Kelp bed",9,"South",2,"B","QUAN","Patagonotothen squamiceps",2,10,12,11,0.04
+"13-Feb-18","Isla de los Estados","Merle Cove",-54.792,-64.08,"Kelp bed",9,"South",2,"Media team","QUAL","Agonopsis chiloensis",NA,NA,NA,NA,NA

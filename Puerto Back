@@ -1,0 +1,8 @@
+"Date","Region","Location","Lat","Long","Habitat","Temp_water_C","Wave_exposure","STATION","TRANSECT","DATATYP","SPECIES","NUMBER","Min","Max","Avg","Num_m.2"
+"15-Feb-18","Isla de los Estados","Puerto Back",-54.78655,-63.88042,"Kelp bed",10,"South",5,"A","QUAN","Patagonotothen cornucola",8,6,16,11,0.16
+"15-Feb-18","Isla de los Estados","Puerto Back",-54.78655,-63.88042,"Kelp bed",10,"South",5,"A","QUAN","Patagonotothen sima",2,5,NA,5,0.04
+"15-Feb-18","Isla de los Estados","Puerto Back",-54.78655,-63.88042,"Kelp bed",10,"South",5,"A","QUAN","Patagonotothen longipes",3,15,16,15.5,0.06
+"15-Feb-18","Isla de los Estados","Puerto Back",-54.78655,-63.88042,"Kelp bed",10,"South",5,"A","QUAN","Patagonotothen squamiceps",1,5,NA,5,0.02
+"15-Feb-18","Isla de los Estados","Puerto Back",-54.78655,-63.88042,"Kelp bed",9,"South",5,"B","QUAN","Patagonotothen cornucola",5,15,18,16.5,0.1
+"15-Feb-18","Isla de los Estados","Puerto Back",-54.78655,-63.88042,"Kelp bed",9,"South",5,"B","QUAN","Patagonotothen sima",3,6,10,8,0.06
+"15-Feb-18","Isla de los Estados","Puerto Back",-54.78655,-63.88042,"Kelp bed",9,"South",5,"B","QUAN","Patagonotothen longipes",1,15,NA,15,0.02

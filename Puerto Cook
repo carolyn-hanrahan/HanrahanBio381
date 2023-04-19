@@ -1,0 +1,10 @@
+"Date","Region","Location","Lat","Long","Habitat","Temp_water_C","Wave_exposure","STATION","TRANSECT","DATATYP","SPECIES","NUMBER","Min","Max","Avg","Num_m.2"
+"14-Feb-18","Isla de los Estados","Puerto Cook",-54.74263,-63.99825,"Kelp bed",11,"North",3,"A","QUAN","Harpagifer bispinis",1,6,NA,6,0.02
+"14-Feb-18","Isla de los Estados","Puerto Cook",-54.74263,-63.99825,"Kelp bed",11,"North",3,"A","QUAN","Patagonotothen cornucola",2,11,15,13,0.04
+"14-Feb-18","Isla de los Estados","Puerto Cook",-54.74263,-63.99825,"Kelp bed",11,"North",3,"A","QUAN","Patagonotothen squamiceps",4,6,10,8,0.08
+"14-Feb-18","Isla de los Estados","Puerto Cook",-54.74263,-63.99825,"Kelp bed",11,"North",3,"A","QUAN","Patagonotothen sima",1,10,NA,10,0.02
+"14-Feb-18","Isla de los Estados","Puerto Cook",-54.74263,-63.99825,"Kelp bed",11,"North",3,"B","QUAN","Cottoperca trigloides",1,20,NA,20,0.02
+"14-Feb-18","Isla de los Estados","Puerto Cook",-54.74263,-63.99825,"Kelp bed",11,"North",3,"B","QUAN","Harpagifer bispinis",2,6,8,7,0.04
+"14-Feb-18","Isla de los Estados","Puerto Cook",-54.74263,-63.99825,"Kelp bed",11,"North",3,"B","QUAN","Patagonotothen cornucola",2,10,12,11,0.04
+"14-Feb-18","Isla de los Estados","Puerto Cook",-54.74263,-63.99825,"Kelp bed",11,"North",3,"B","QUAN","Patagonotothen sima",3,8,12,10,0.06
+"14-Feb-18","Isla de los Estados","Puerto Cook",-54.74263,-63.99825,"Kelp bed",11,"North",3,"B","QUAN","Patagonotothen squamiceps",14,6,12,9,0.28

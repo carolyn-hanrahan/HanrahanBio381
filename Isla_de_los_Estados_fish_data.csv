@@ -1,0 +1,231 @@
+﻿Date,Region,Location,Lat,Long,Habitat,Temp_water_C,Wave_exposure,STATION,TRANSECT,DATATYP,SPECIES,NUMBER,Min,Max,Avg,Num_m^2
+13-Feb-18,Isla de los Estados,Isla Alexander,-54.846,-64.39,Kelp bed,9,South,1,A,QUAN,Paranotothenia magellanica,2,10,,10,0.04
+13-Feb-18,Isla de los Estados,Merle Cove,-54.792,-64.08,Kelp bed,9,South,2,A,QUAN,Patagonotothen sima,3,10,12,11,0.06
+13-Feb-18,Isla de los Estados,Merle Cove,-54.792,-64.08,Kelp bed,9,South,2,A,QUAN,Patagonotothen cornucola,2,16,20,18,0.04
+13-Feb-18,Isla de los Estados,Merle Cove,-54.792,-64.08,Kelp bed,9,South,2,A,QUAN,Patagonotothen squamiceps,3,10,12,11,0.06
+13-Feb-18,Isla de los Estados,Merle Cove,-54.792,-64.08,Kelp bed,9,South,2,A,QUAN,Patagonotothen tessellata,8,15,20,17.5,0.16
+13-Feb-18,Isla de los Estados,Merle Cove,-54.792,-64.08,Kelp bed,9,South,2,B,QUAN,Patagonotothen sima,3,11,12,11.5,0.06
+13-Feb-18,Isla de los Estados,Merle Cove,-54.792,-64.08,Kelp bed,9,South,2,B,QUAN,Patagonotothen squamiceps,2,10,12,11,0.04
+14-Feb-18,Isla de los Estados,Puerto Cook,-54.74263,-63.99825,Kelp bed,11,North,3,A,QUAN,Harpagifer bispinis,1,6,,6,0.02
+14-Feb-18,Isla de los Estados,Puerto Cook,-54.74263,-63.99825,Kelp bed,11,North,3,A,QUAN,Patagonotothen cornucola,2,11,15,13,0.04
+14-Feb-18,Isla de los Estados,Puerto Cook,-54.74263,-63.99825,Kelp bed,11,North,3,A,QUAN,Patagonotothen squamiceps,4,6,10,8,0.08
+14-Feb-18,Isla de los Estados,Puerto Cook,-54.74263,-63.99825,Kelp bed,11,North,3,A,QUAN,Patagonotothen sima,1,10,,10,0.02
+14-Feb-18,Isla de los Estados,Puerto Cook,-54.74263,-63.99825,Kelp bed,11,North,3,B,QUAN,Cottoperca trigloides,1,20,,20,0.02
+14-Feb-18,Isla de los Estados,Puerto Cook,-54.74263,-63.99825,Kelp bed,11,North,3,B,QUAN,Harpagifer bispinis,2,6,8,7,0.04
+14-Feb-18,Isla de los Estados,Puerto Cook,-54.74263,-63.99825,Kelp bed,11,North,3,B,QUAN,Patagonotothen cornucola,2,10,12,11,0.04
+14-Feb-18,Isla de los Estados,Puerto Cook,-54.74263,-63.99825,Kelp bed,11,North,3,B,QUAN,Patagonotothen sima,3,8,12,10,0.06
+14-Feb-18,Isla de los Estados,Puerto Cook,-54.74263,-63.99825,Kelp bed,11,North,3,B,QUAN,Patagonotothen squamiceps,14,6,12,9,0.28
+14-Feb-18,Isla de los Estados,Puerto Lasserre,-54.73656,-63.86156,Kelp bed,10,North,4,A,QUAN,Patagonotothen squamiceps,16,8,12,10,0.32
+14-Feb-18,Isla de los Estados,Puerto Lasserre,-54.73656,-63.86156,Kelp bed,10,North,4,A,QUAN,Patagonotothen tessellata,25,5,16,10.5,0.50
+14-Feb-18,Isla de los Estados,Puerto Lasserre,-54.73656,-63.86156,Kelp bed,10,North,4,A,QUAN,Patagonotothen cornucola,23,5,12,8.5,0.46
+14-Feb-18,Isla de los Estados,Puerto Lasserre,-54.73656,-63.86156,Kelp bed,10,North,4,A,QUAN,Patagonotothen sima,4,5,10,7.5,0.08
+14-Feb-18,Isla de los Estados,Puerto Lasserre,-54.73656,-63.86156,Kelp bed,10,North,4,B,QUAN,Patagonotothen squamiceps,19,8,10,9,0.38
+14-Feb-18,Isla de los Estados,Puerto Lasserre,-54.73656,-63.86156,Kelp bed,10,North,4,B,QUAN,Patagonotothen tessellata,30,5,15,10,0.60
+14-Feb-18,Isla de los Estados,Puerto Lasserre,-54.73656,-63.86156,Kelp bed,10,North,4,B,QUAN,Patagonotothen sima,4,4,6,5,0.08
+14-Feb-18,Isla de los Estados,Puerto Lasserre,-54.73656,-63.86156,Kelp bed,10,North,4,B,QUAN,Patagonotothen cornucola,3,10,12,11,0.06
+14-Feb-18,Isla de los Estados,Puerto Lasserre,-54.73656,-63.86156,Kelp bed,10,North,4,B,QUAN,Patagonotothen longipes,1,16,,16,0.02
+15-Feb-18,Isla de los Estados,Puerto Back,-54.78655,-63.88042,Kelp bed,10,South,5,A,QUAN,Patagonotothen cornucola,8,6,16,11,0.16
+15-Feb-18,Isla de los Estados,Puerto Back,-54.78655,-63.88042,Kelp bed,10,South,5,A,QUAN,Patagonotothen sima,2,5,,5,0.04
+15-Feb-18,Isla de los Estados,Puerto Back,-54.78655,-63.88042,Kelp bed,10,South,5,A,QUAN,Patagonotothen longipes,3,15,16,15.5,0.06
+15-Feb-18,Isla de los Estados,Puerto Back,-54.78655,-63.88042,Kelp bed,10,South,5,A,QUAN,Patagonotothen squamiceps,1,5,,5,0.02
+15-Feb-18,Isla de los Estados,Puerto Back,-54.78655,-63.88042,Kelp bed,9,South,5,B,QUAN,Patagonotothen cornucola,5,15,18,16.5,0.10
+15-Feb-18,Isla de los Estados,Puerto Back,-54.78655,-63.88042,Kelp bed,9,South,5,B,QUAN,Patagonotothen sima,3,6,10,8,0.06
+15-Feb-18,Isla de los Estados,Puerto Back,-54.78655,-63.88042,Kelp bed,9,South,5,B,QUAN,Patagonotothen longipes,1,15,,15,0.02
+15-Feb-18,Isla de los Estados,Caleta Correa,-54.79306,-63.91311,Kelp bed,10,South,6,A,QUAN,Patagonotothen squamiceps,1,12,,12,0.02
+15-Feb-18,Isla de los Estados,Caleta Correa,-54.79306,-63.91311,Kelp bed,10,South,6,A,QUAN,Patagonotothen cornucola,3,6,20,13,0.06
+15-Feb-18,Isla de los Estados,Caleta Correa,-54.79306,-63.91311,Kelp bed,10,South,6,A,QUAN,Paranotothenia magellanica,5,6,16,11,0.10
+15-Feb-18,Isla de los Estados,Caleta Correa,-54.79306,-63.91311,Kelp bed,10,South,6,A,QUAN,Patagonotothen sima,1,6,,6,0.02
+15-Feb-18,Isla de los Estados,Caleta Correa,-54.79306,-63.91311,Kelp bed,10,South,6,B,QUAN,Paranotothenia magellanica,4,5,20,12.5,0.08
+15-Feb-18,Isla de los Estados,Caleta Correa,-54.79306,-63.91311,Kelp bed,10,South,6,B,QUAN,Patagonotothen squamiceps,3,6,10,8,0.06
+15-Feb-18,Isla de los Estados,Caleta Correa,-54.79306,-63.91311,Kelp bed,10,South,6,B,QUAN,Patagonotothen sima,2,5,,5,0.04
+15-Feb-18,Isla de los Estados,Caleta Correa,-54.79306,-63.91311,Kelp bed,10,South,6,B,QUAN,Patagonotothen cornucola,2,5,20,12.5,0.04
+16-Feb-18,Isla de los Estados,Pta. Conway,-54.73532,-64.22746,Kelp bed,10,North,7,A,QUAN,Patagonotothen sima,3,5,8,6.5,0.06
+16-Feb-18,Isla de los Estados,Pta. Conway,-54.73532,-64.22746,Kelp bed,10,North,7,A,QUAN,Patagonotothen squamiceps,5,6,7,6.5,0.10
+16-Feb-18,Isla de los Estados,Pta. Conway,-54.73532,-64.22746,Kelp bed,10,North,7,A,QUAN,Harpagifer bispinis,2,4,5,4.5,0.04
+16-Feb-18,Isla de los Estados,Puerto Cook inside,-54.76057,-64.0286,Kelp bed,10,North,8,A,QUAN,Patagonotothen sima,5,4,6,5,0.10
+16-Feb-18,Isla de los Estados,Puerto Cook inside,-54.76057,-64.0286,Kelp bed,10,North,8,A,QUAN,Patagonotothen brevicauda,1,15,,15,0.02
+16-Feb-18,Isla de los Estados,Puerto Cook inside,-54.76057,-64.0286,Kelp bed,10,North,8,A,QUAN,Patagonotothen squamiceps,6,6,10,8,0.12
+16-Feb-18,Isla de los Estados,Puerto Cook inside,-54.76057,-64.0286,Kelp bed,10,North,8,A,QUAN,Patagonotothen cornucola,5,5,10,7.5,0.10
+16-Feb-18,Isla de los Estados,Puerto Cook inside,-54.76057,-64.0286,Kelp bed,10,North,8,A,QUAN,Patagonotothen squamiceps,4,5,8,6.5,0.08
+16-Feb-18,Isla de los Estados,Puerto Cook inside,-54.76057,-64.0286,Kelp bed,10,North,8,B,QUAN,Patagonotothen cornucola,12,6,16,11,0.24
+16-Feb-18,Isla de los Estados,Puerto Cook inside,-54.76057,-64.0286,Kelp bed,10,North,8,B,QUAN,Patagonotothen squamiceps,3,6,8,7,0.06
+16-Feb-18,Isla de los Estados,Puerto Cook inside,-54.76057,-64.0286,Kelp bed,10,North,8,B,QUAN,Patagonotothen squamiceps,15,5,10,7.5,0.30
+16-Feb-18,Isla de los Estados,Puerto Cook inside,-54.76057,-64.0286,Kelp bed,10,North,8,B,QUAN,Patagonotothen sima,8,4,5,4.5,0.16
+16-Feb-18,Isla de los Estados,Puerto Cook inside,-54.76057,-64.0286,Kelp bed,10,North,8,B,QUAN,Patagonotothen brevicauda,1,5,,5,0.02
+16-Feb-18,Isla de los Estados,Puerto Cook inside,-54.76057,-64.0286,Kelp bed,10,North,8,B,QUAN,Cottoperca trigloides,1,20,,20,0.02
+17-Feb-18,Isla de los Estados,Puerto Cook Middle islet,-54.75269,-64.02621,Kelp bed,10,North,9,A,QUAN,Patagonotothen squamiceps,27,5,8,6.5,0.54
+17-Feb-18,Isla de los Estados,Puerto Cook Middle islet,-54.75269,-64.02621,Kelp bed,10,North,9,A,QUAN,Patagonotothen cornucola,9,5,15,10,0.18
+17-Feb-18,Isla de los Estados,Puerto Cook Middle islet,-54.75269,-64.02621,Kelp bed,10,North,9,A,QUAN,Patagonotothen sima,6,5,6,5.5,0.12
+17-Feb-18,Isla de los Estados,Puerto Cook Middle islet,-54.75269,-64.02621,Kelp bed,10,North,9,B,QUAN,Patagonotothen sima,1,6,,6,0.02
+17-Feb-18,Isla de los Estados,Puerto Cook Middle islet,-54.75269,-64.02621,Kelp bed,10,North,9,B,QUAN,Patagonotothen tessellata,15,4,6,5,0.30
+17-Feb-18,Isla de los Estados,Puerto Cook Middle islet,-54.75269,-64.02621,Kelp bed,10,North,9,B,QUAN,Austrolycus depressiceps,1,33,,33,0.02
+17-Feb-18,Isla de los Estados,Puerto Cook Middle islet,-54.75269,-64.02621,Kelp bed,10,North,9,B,QUAN,Patagonotothen squamiceps,25,5,6,5.5,0.50
+17-Feb-18,Isla de los Estados,Puerto Cook Middle islet,-54.75269,-64.02621,Kelp bed,10,North,9,B,QUAN,Patagonotothen cornucola,12,5,20,12.5,0.24
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70732,-64.33367,Kelp bed,10,North,10,A,QUAN,Patagonotothen cornucola,2,6,8,7,0.04
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70732,-64.33367,Kelp bed,10,North,10,A,QUAN,Patagonotothen sima,6,5,7,6,0.12
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70732,-64.33367,Kelp bed,10,North,10,A,QUAN,Patagonotothen squamiceps,4,6,8,7,0.08
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70732,-64.33367,Kelp bed,10,North,10,A,QUAN,Haushia marinae,1,8,,8,0.02
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70732,-64.33367,Kelp bed,10,North,10,B,QUAN,Patagonotothen sima,2,6,7,6.5,0.04
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70732,-64.33367,Kelp bed,10,North,10,B,QUAN,Harpagifer bispinis,1,6,,6,0.02
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70732,-64.33367,Kelp bed,10,North,10,B,QUAN,Cottoperca trigloides,1,,35,35,0.02
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70732,-64.33367,Kelp bed,10,North,10,B,QUAN,Patagonotothen cornucola,1,16,,16,0.02
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70732,-64.33367,Kelp bed,10,North,10,B,QUAN,Patagonotothen brevicauda,2,10,,10,0.04
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70732,-64.33367,Kelp bed,10,North,10,B,QUAN,Patagonotothen squamiceps,6,6,8,7,0.12
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70979,-64.34583,Kelp bed,10,North,11,A,QUAN,Harpagifer bispinis,1,7,,7,0.02
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70979,-64.34583,Kelp bed,10,North,11,A,QUAN,Patagonotothen tessellata,1,15,,15,0.02
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70979,-64.34583,Kelp bed,10,North,11,A,QUAN,Patagonotothen sima,4,6,8,7,0.08
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70979,-64.34583,Kelp bed,10,North,11,A,QUAN,Patagonotothen longipes,1,10,,10,0.02
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70979,-64.34583,Kelp bed,10,North,11,A,QUAN,Patagonotothen squamiceps,9,6,8,7,0.18
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70979,-64.34583,Kelp bed,10,North,11,A,QUAN,Patagonotothen cornucola,2,10,12,11,0.04
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70979,-64.34583,Kelp bed,10,North,11,B,QUAN,Patagonotothen squamiceps,4,6,8,7,0.08
+18-Feb-18,Isla de los Estados,Ite. Colnett,-54.70979,-64.34583,Kelp bed,10,North,11,B,QUAN,Patagonotothen sima,3,4,5,4.5,0.06
+19-Feb-18,Tierra del Fuego,Bahia Tethis,-54.6253,-65.22694,Kelp bed,10,East,12,A,QUAN,Paranotothenia magellanica,18,6,14,10,0.36
+19-Feb-18,Tierra del Fuego,Bahia Tethis,-54.6253,-65.22694,Kelp bed,10,East,12,A,QUAN,Haushia marinae,1,12,,12,0.02
+19-Feb-18,Tierra del Fuego,Bahia Tethis,-54.6253,-65.22694,Kelp bed,10,East,12,A,QUAN,Cottoperca trigloides,1,,30,30,0.02
+19-Feb-18,Tierra del Fuego,Bahia Tethis,-54.6253,-65.22694,Kelp bed,10,East,12,B,QUAN,Paranotothenia magellanica,4,6,8,7,0.08
+19-Feb-18,Tierra del Fuego,Bahia Tethis,-54.6253,-65.22694,Kelp bed,10,East,12,B,QUAN,Austrolycus depressiceps,1,16,,16,0.02
+19-Feb-18,Tierra del Fuego,Bahia Tethis,-54.62208,-65.22205,Kelp bed,10,East,13,A,QUAN,Patagonotothen sima,2,5,6,5.5,0.04
+19-Feb-18,Tierra del Fuego,Bahia Tethis,-54.62208,-65.22205,Kelp bed,10,East,13,A,QUAN,Paranotothenia magellanica,5,6,10,8,0.10
+19-Feb-18,Tierra del Fuego,Bahia Tethis,-54.62208,-65.22205,Kelp bed,10,East,13,A,QUAN,Paranotothenia magellanica,8,6,12,9,0.16
+20-Feb-18,Isla de los Estados,Bahia San Antonio,-54.73991,-64.51731,Kelp bed,9,North,14,A,QUAN,Patagonotothen cornucola,6,5,23,14,0.12
+20-Feb-18,Isla de los Estados,Bahia San Antonio,-54.73991,-64.51731,Kelp bed,9,North,14,A,QUAN,Patagonotothen sima,2,5,,5,0.04
+20-Feb-18,Isla de los Estados,Bahia San Antonio,-54.73991,-64.51731,Kelp bed,9,North,14,A,QUAN,Patagonotothen squamiceps,22,5,8,6.5,0.44
+20-Feb-18,Isla de los Estados,Bahia San Antonio,-54.73991,-64.51731,Kelp bed,9,North,14,B,QUAN,Patagonotothen cornucola,5,6,12,9,0.10
+20-Feb-18,Isla de los Estados,Bahia San Antonio,-54.73991,-64.51731,Kelp bed,9,North,14,B,QUAN,Patagonotothen squamiceps,13,5,8,6.5,0.26
+20-Feb-18,Isla de los Estados,Bahia Crossley,-54.7928,-64.6847,Kelp bed,10,North,15,A,QUAN,Patagonotothen cornucola,1,5,,5,0.02
+20-Feb-18,Isla de los Estados,Bahia Crossley,-54.7928,-64.6847,Kelp bed,10,North,15,A,QUAN,Patagonotothen squamiceps,21,6,7,6.5,0.42
+20-Feb-18,Isla de los Estados,Bahia Crossley,-54.7928,-64.6847,Kelp bed,10,North,15,A,QUAN,Patagonotothen tessellata,2,6,8,7,0.04
+20-Feb-18,Isla de los Estados,Bahia Crossley,-54.7928,-64.6847,Kelp bed,10,North,15,B,QUAN,Patagonotothen squamiceps,8,6,8,7,0.16
+20-Feb-18,Isla de los Estados,Bahia Crossley,-54.7928,-64.6847,Kelp bed,10,North,15,B,QUAN,Patagonotothen sima,1,6,,6,0.02
+20-Feb-18,Isla de los Estados,Bahia Crossley,-54.7928,-64.6847,Kelp bed,10,North,15,B,QUAN,Patagonotothen tessellata,2,10,15,12.5,0.04
+20-Feb-18,Isla de los Estados,Bahia Crossley,-54.7928,-64.6847,Kelp bed,10,North,15,B,QUAN,Patagonotothen cornucola,2,15,18,16.5,0.04
+20-Feb-18,Isla de los Estados,Bahia Crossley,-54.7928,-64.6847,Kelp bed,10,North,15,B,QUAN,Crossostomus sobrali,2,10,25,17.5,0.04
+22-Feb-18,Isla de los Estados,Bahia York,-54.79604,-64.26859,Kelp bed,9,South,16,A,QUAN,Paranotothenia magellanica,4,5,6,5.5,0.08
+22-Feb-18,Isla de los Estados,Bahia York,-54.79604,-64.26859,Kelp bed,9,South,16,A,QUAN,Patagonotothen sima,1,4,,4,0.02
+22-Feb-18,Isla de los Estados,Bahia York,-54.79604,-64.26859,Kelp bed,9,South,16,B,QUAN,Paranotothenia magellanica,2,4,5,4.5,0.04
+22-Feb-18,Isla de los Estados,Bahia York,-54.79604,-64.26859,Kelp bed,9,South,16,B,QUAN,Patagonotothen sima,4,4,5,4.5,0.08
+22-Feb-18,Isla de los Estados,Bahia York,-54.79604,-64.26859,Kelp bed,9,South,16,B,QUAN,Patagonotothen cornucola,1,8,,8,0.02
+22-Feb-18,Isla de los Estados,Bahia York,-54.79604,-64.26859,Kelp bed,9,South,16,B,QUAN,Crossostomus sobrali,1,18,,18,0.02
+23-Feb-18,Tierra del Fuego,Bahia Valentin,-54.90915,-65.49481,Kelp bed,11,East,17,A,QUAN,Patagonotothen squamiceps,3,5,6,5.5,0.06
+23-Feb-18,Tierra del Fuego,Bahia Valentin,-54.90915,-65.49481,Kelp bed,11,East,17,A,QUAN,Genypterus blacodes,1,,38,38,0.02
+23-Feb-18,Isla de los Estados,Bahia Valentin,-54.90915,-65.49481,Kelp bed,11,East,17,B,QUAN,Paranotothenia magellanica,1,6,,6,0.02
+24-Feb-18,Isla de los Estados,Bahia York,-54.78656,-64.24171,Kelp bed,11,South,18,A,QUAN,Patagonotothen sima,2,4,,4,0.04
+24-Feb-18,Isla de los Estados,Bahia York,-54.78656,-64.24171,Kelp bed,11,South,18,A,QUAN,Patagonotothen cornucola,3,5,10,7.5,0.06
+24-Feb-18,Isla de los Estados,Bahia York,-54.78656,-64.24171,Kelp bed,11,South,18,A,QUAN,Patagonotothen squamiceps,5,4,6,5,0.10
+24-Feb-18,Isla de los Estados,Bahia York,-54.78656,-64.24171,Kelp bed,11,South,18,B,QUAN,Patagonotothen sima,3,4,5,4.5,0.06
+24-Feb-18,Isla de los Estados,Bahia York,-54.78656,-64.24171,Kelp bed,11,South,18,B,QUAN,Patagonotothen cornucola,1,5,,5,0.02
+24-Feb-18,Isla de los Estados,Bahia York,-54.78656,-64.24171,Kelp bed,11,South,18,B,QUAN,Patagonotothen squamiceps,1,8,,8,0.02
+24-Feb-18,Isla de los Estados,Bahia York,-54.78656,-64.24171,Kelp bed,11,South,18,B,QUAN,Paranotothenia magellanica,1,5,,5,0.02
+31-Jan-17,Carlos,ISLA CARLOS III,-53.6634,-72.26639,Kelp bed,7.8,Protected,0,0,QUAL,Cottoperca trigloides,,,,0,
+31-Jan-17,Carlos,ISLA CARLOS III,-53.6634,-72.26639,Kelp bed,7.8,Protected,0,0,QUAL,Patagonotothen cornucola,,,,0,
+31-Jan-17,Carlos,ISLA CARLOS III,-53.6634,-72.26639,Kelp bed,7.8,Protected,0,0,QUAL,Patagonotothen squamiceps,,,,0,
+31-Jan-17,Carlos,ISLA CARLOS III,-53.6634,-72.26639,Kelp bed,7.8,Protected,0,0,QUAL,Patagonotothen tessellata,,,,0,
+1-Feb-17,Carlos,CANAL BARBARA,-53.86423,-72.18653,Kelp bed,7.8,Protected,1,A,QUAN,Patagonotothen cornucola,2,6,10,8,0.04
+1-Feb-17,Carlos,CANAL BARBARA,-53.86423,-72.18653,Kelp bed,7.8,Protected,1,A,QUAN,Patagonotothen squamiceps,1,10,,10,0.02
+1-Feb-17,Carlos,CANAL BARBARA,-53.86423,-72.18653,Kelp bed,7.8,Protected,1,A,QUAN,Patagonotothen tessellata,1,10,,10,0.02
+1-Feb-17,Carlos,CANAL BARBARA,-53.86423,-72.18653,Kelp bed,7.8,Protected,1,B,QUAN,Patagonotothen cornucola,2,15,18,16.5,0.04
+1-Feb-17,Carlos,CANAL BARBARA,-53.86423,-72.18653,Kelp bed,7.8,Protected,1,B,QUAN,Patagonotothen tessellata,1,8,,8,0.02
+1-Feb-17,Carlos,CANAL BARBARA,-53.85126,-72.21865,Kelp bed,7.8,Protected,2,A,QUAN,Patagonotothen cornucola,1,15,,15,0.02
+1-Feb-17,Carlos,CANAL BARBARA,-53.85126,-72.21865,Kelp bed,7.8,Protected,2,B,QUAN,Patagonotothen squamiceps,1,8,,8,0.02
+1-Feb-17,Carlos,CANAL BARBARA,-53.85126,-72.21865,Kelp bed,7.8,Protected,2,B,QUAN,Patagonotothen tessellata,4,8,10,9,0.08
+1-Feb-17,Carlos,CANAL BARBARA,-53.85126,-72.21865,Kelp bed,7.8,Protected,2,B,QUAN,Patagonotothen cornucola,1,10,,10,0.02
+4-Feb-17,Hornos,ISLA HORNOS,-55.96066,-67.22369,Kelp bed,8.9,South,3,A,QUAN,Patagonotothen sima,1,4,,4,0.02
+4-Feb-17,Hornos,ISLA HORNOS,-55.96066,-67.22369,Kelp bed,8.9,South,3,A,QUAN,Patagonotothen cornucola,1,6,,6,0.02
+4-Feb-17,Hornos,ISLA HORNOS,-55.96066,-67.22369,Kelp bed,8.9,South,3,B,QUAN,Patagonotothen brevicauda,1,10,,10,0.02
+4-Feb-17,Hornos,ISLA HORNOS,-55.96066,-67.22369,Kelp bed,8.9,South,3,B,QUAN,Patagonotothen sima,4,4,6,5,0.08
+4-Feb-17,Hornos,ISLA HORNOS,-55.96479,-67.21429,Kelp bed,8.9,South,4,A,QUAN,Paranotothenia magellanica,3,6,10,8,0.06
+4-Feb-17,Hornos,ISLA HORNOS,-55.96479,-67.21429,Kelp bed,8.9,South,4,A,QUAN,Patagonotothen cornucola,2,4,8,6,0.04
+4-Feb-17,Hornos,ISLA HORNOS,-55.96479,-67.21429,Kelp bed,8.9,South,4,A,QUAN,Patagonotothen sima,2,6,10,8,0.04
+4-Feb-17,Hornos,ISLA HORNOS,-55.96479,-67.21429,Kelp bed,8.9,South,4,B,QUAN,Paranotothenia magellanica,11,4,15,9.5,0.22
+4-Feb-17,Hornos,ISLA HORNOS,-55.96479,-67.21429,Kelp bed,8.9,South,4,B,QUAN,Patagonotothen sima,5,4,7,5.5,0.10
+5-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.5079,-68.72012,Kelp bed,10,South,5,A,QUAN,Paranotothenia magellanica,3,5,6,5.5,0.06
+5-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.5079,-68.72012,Kelp bed,10,South,5,A,QUAN,Patagonotothen sima,53,4,6,5,1.06
+5-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.5079,-68.72012,Kelp bed,10,South,5,B,QUAN,Patagonotothen brevicauda,2,8,10,9,0.04
+5-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.5079,-68.72012,Kelp bed,10,South,5,B,QUAN,Patagonotothen sima,55,4,6,5,1.10
+5-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.5079,-68.72012,Kelp bed,10,South,5,B,QUAN,Paranotothenia magellanica,2,8,20,14,0.04
+5-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.5195,-68.70136,Kelp bed,10,South,6,A,QUAN,Patagonotothen sima,40,4,5,4.5,0.80
+5-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.5195,-68.70136,Kelp bed,10,South,6,B,QUAN,Paranotothenia magellanica,4,6,15,10.5,0.08
+5-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.5195,-68.70136,Kelp bed,10,South,6,B,QUAN,Patagonotothen sima,26,4,5,4.5,0.52
+6-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.51716,-68.71955,Kelp bed,8.9,South,7,A,QUAN,Calliclinus geniguttatus,2,16,30,23,0.04
+6-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.51716,-68.71955,Kelp bed,8.9,South,7,A,QUAN,Patagonotothen sima,35,4,6,5,0.70
+6-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.51716,-68.71955,Kelp bed,8.9,South,7,B,QUAN,Calliclinus geniguttatus,1,30,,30,0.02
+6-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.51716,-68.71955,Kelp bed,8.9,South,7,B,QUAN,Patagonotothen brevicauda,1,10,,10,0.02
+6-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.51716,-68.71955,Kelp bed,8.9,South,7,B,QUAN,Patagonotothen sima,37,4,6,5,0.74
+6-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.52198,-68.70216,Kelp bed,8.9,South,8,A,QUAN,Patagonotothen brevicauda,1,10,,10,0.02
+6-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.52198,-68.70216,Kelp bed,8.9,South,8,A,QUAN,Patagonotothen sima,1,4,,4,0.02
+6-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.52198,-68.70216,Kelp bed,8.9,South,8,B,QUAN,Patagonotothen sima,13,5,6,5.5,0.26
+6-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.52198,-68.70216,Kelp bed,8.9,South,8,B,QUAN,Zoarcido,1,12,,12,0.02
+6-Feb-17,Diego,ISLA DIEGO RAMIREZ,-56.52198,-68.70216,Kelp bed,8.9,South,8,B,QUAN,Patagonotothen brevicauda,1,12,,12,0.02
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.81209,-67.28489,Kelp bed,8.9,South,9,A,QUAN,Paranotothenia magellanica,1,10,,10,0.02
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.81209,-67.28489,Kelp bed,8.9,South,9,A,QUAN,Patagonotothen brevicauda,1,12,,12,0.02
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.81209,-67.28489,Kelp bed,8.9,South,9,A,QUAN,Patagonotothen cornucola,1,15,,15,0.02
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.81209,-67.28489,Kelp bed,8.9,South,9,A,QUAN,Patagonotothen tessellata,30,6,8,7,0.60
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.81209,-67.28489,Kelp bed,8.9,South,9,A,QUAN,Cottoperca trigloides,1,12,,12,0.02
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.81209,-67.28489,Kelp bed,8.9,South,9,B,QUAN,Patagonotothen cornucola,1,12,,12,0.02
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.81209,-67.28489,Kelp bed,8.9,South,9,B,QUAN,Patagonotothen squamiceps,2,6,10,8,0.04
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.81209,-67.28489,Kelp bed,8.9,South,9,B,QUAN,Patagonotothen tessellata,25,6,8,7,0.50
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.82639,-67.27045,Kelp bed,8.9,South,10,A,QUAN,Patagonotothen cornucola,6,10,12,11,0.12
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.82639,-67.27045,Kelp bed,8.9,South,10,A,QUAN,Patagonotothen sima,1,12,,12,0.02
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.82639,-67.27045,Kelp bed,8.9,South,10,A,QUAN,Patagonotothen squamiceps,1,6,,6,0.02
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.82639,-67.27045,Kelp bed,8.9,South,10,A,QUAN,Patagonotothen tessellata,104,6,18,12,2.08
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.82639,-67.27045,Kelp bed,8.9,South,10,B,QUAN,Patagonotothen tessellata,20,6,,6,0.40
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.82639,-67.27045,Kelp bed,8.9,South,10,B,QUAN,Patagonotothen squamiceps,1,7,,7,0.02
+7-Feb-17,Hornos,ISLA HERSCHEL,-55.82639,-67.27045,Kelp bed,8.9,South,10,B,QUAN,Patagonotothen cornucola,4,10,12,11,0.08
+8-Feb-17,Hornos,ISLA HERMITE,-55.81012,-67.51534,Kelp bed,8.9,South,11,A,QUAN,Patagonotothen cornucola,2,10,12,11,0.04
+8-Feb-17,Hornos,ISLA HERMITE,-55.81012,-67.51534,Kelp bed,8.9,South,11,A,QUAN,Patagonotothen tessellata,30,5,15,10,0.60
+8-Feb-17,Hornos,ISLA HERMITE,-55.81012,-67.51534,Kelp bed,8.9,South,11,A,QUAN,Patagonotothen squamiceps,5,5,7,6,0.10
+8-Feb-17,Hornos,ISLA HERMITE,-55.81012,-67.51534,Kelp bed,8.9,South,11,B,QUAN,Patagonotothen squamiceps,13,6,10,8,0.26
+8-Feb-17,Hornos,ISLA HERMITE,-55.81012,-67.51534,Kelp bed,8.9,South,11,B,QUAN,Patagonotothen tessellata,63,6,12,9,1.26
+8-Feb-17,Hornos,ISLA HERMITE,-55.81012,-67.51534,Kelp bed,8.9,South,11,B,QUAN,Patagonotothen cornucola,4,6,15,10.5,0.08
+8-Feb-17,Hornos,ISLA HERMITE,-55.81012,-67.51534,Kelp bed,8.9,South,11,B,QUAN,Mixine australis,1,30,,30,0.02
+8-Feb-17,Hornos,ISLA HERMITE,-55.83443,-67.5218,Kelp bed,8.9,South,12,A,QUAN,Patagonotothen sima,2,6,,6,0.04
+8-Feb-17,Hornos,ISLA HERMITE,-55.83443,-67.5218,Kelp bed,8.9,South,12,A,QUAL,Sprattus fuegensis,,,,,
+8-Feb-17,Hornos,ISLA HERMITE,-55.83443,-67.5218,Kelp bed,8.9,South,12,A,QUAN,Agonopsis chiloensis,1,10,,10,0.02
+8-Feb-17,Hornos,ISLA HERMITE,-55.83443,-67.5218,Kelp bed,8.9,South,12,A,QUAN,Cottoperca trigloides,1,16,,16,0.02
+8-Feb-17,Hornos,ISLA HERMITE,-55.83443,-67.5218,Kelp bed,8.9,South,12,A,QUAN,Patagonotothen cornucola,3,12,15,13.5,0.06
+8-Feb-17,Hornos,ISLA HERMITE,-55.83443,-67.5218,Kelp bed,8.9,South,12,A,QUAL,Sebastes oculatus,1,24,,24,0.02
+9-Feb-17,Hornos,ISLA WOLLASTON,-55.7586,-67.48488,Kelp bed,10,South,13,A,QUAN,Patagonotothen tessellata,2,6,7,6.5,0.04
+9-Feb-17,Hornos,ISLA WOLLASTON,-55.7586,-67.48488,Kelp bed,10,South,13,A,QUAN,Patagonotothen squamiceps,6,5,7,6,0.12
+9-Feb-17,Hornos,ISLA WOLLASTON,-55.7586,-67.48488,Kelp bed,10,South,13,A,QUAN,Paranotothenia magellanica,3,12,13,12.5,0.06
+9-Feb-17,Hornos,ISLA WOLLASTON,-55.7586,-67.48488,Kelp bed,10,South,13,A,QUAN,Patagonotothen cornucola,1,13,,13,0.02
+9-Feb-17,Hornos,ISLA WOLLASTON,-55.7586,-67.48488,Kelp bed,10,South,13,B,QUAN,Patagonotothen cornucola,1,14,,14,0.02
+9-Feb-17,Hornos,ISLA WOLLASTON,-55.7586,-67.48488,Kelp bed,10,South,13,B,QUAN,Patagonotothen squamiceps,4,6,12,9,0.08
+9-Feb-17,Hornos,ISLA WOLLASTON,-55.7586,-67.48488,Kelp bed,10,South,13,B,QUAN,Patagonotothen tessellata,1,8,,8,0.02
+9-Feb-17,Hornos,ISLA WOLLASTON,-55.7504,-67.47913,Kelp bed,10,South,14,A,QUAN,Paranotothenia magellanica,1,16,,16,0.02
+9-Feb-17,Hornos,ISLA WOLLASTON,-55.7504,-67.47913,Kelp bed,10,South,14,A,QUAN,Patagonotothen cornucola,2,10,12,11,0.04
+9-Feb-17,Hornos,ISLA WOLLASTON,-55.7504,-67.47913,Kelp bed,10,South,14,A,QUAN,Patagonotothen squamiceps,6,5,10,7.5,0.12
+9-Feb-17,Hornos,ISLA WOLLASTON,-55.7504,-67.47913,Kelp bed,10,South,14,B,QUAN,Patagonotothen cornucola,5,6,15,10.5,0.10
+9-Feb-17,Hornos,ISLA WOLLASTON,-55.7504,-67.47913,Kelp bed,10,South,14,B,QUAN,Patagonotothen squamiceps,9,6,15,10.5,0.18
+10-Feb-17,Hornos,ISLA WOLLASTON,-55.75012,-67.50832,Kelp bed,10,South,15,A,QUAN,Patagonotothen cornucola,4,10,14,12,0.08
+10-Feb-17,Hornos,ISLA WOLLASTON,-55.75012,-67.50832,Kelp bed,10,South,15,A,QUAN,Patagonotothen sima,3,6,8,7,0.06
+10-Feb-17,Hornos,ISLA WOLLASTON,-55.75012,-67.50832,Kelp bed,10,South,15,B,QUAN,Paranotothenia magellanica,4,8,10,9,0.08
+10-Feb-17,Hornos,ISLA WOLLASTON,-55.75012,-67.50832,Kelp bed,10,South,15,B,QUAN,Patagonotothen cornucola,3,12,14,13,0.06
+10-Feb-17,Hornos,ISLA WOLLASTON,-55.75012,-67.50832,Kelp bed,10,South,15,B,QUAN,Patagonotothen sima,1,6,,6,0.02
+10-Feb-17,Hornos,ISLA WOLLASTON,-55.59039,-67.52548,Kelp bed,10,South,16,A,QUAN,Patagonotothen cornucola,13,5,15,10,0.26
+10-Feb-17,Hornos,ISLA WOLLASTON,-55.59039,-67.52548,Kelp bed,10,South,16,A,QUAN,Patagonotothen sima,1,7,,7,0.02
+10-Feb-17,Hornos,ISLA WOLLASTON,-55.59039,-67.52548,Kelp bed,10,South,16,A,QUAN,Patagonotothen squamiceps,17,6,12,9,0.34
+10-Feb-17,Hornos,ISLA WOLLASTON,-55.59039,-67.52548,Kelp bed,10,South,16,B,QUAN,Patagonotothen sima,2,6,8,7,0.04
+10-Feb-17,Hornos,ISLA WOLLASTON,-55.59039,-67.52548,Kelp bed,10,South,16,B,QUAN,Patagonotothen squamiceps,7,4,10,7,0.14
+10-Feb-17,Hornos,ISLA WOLLASTON,-55.59039,-67.52548,Kelp bed,10,South,16,B,QUAN,Patagonotothen cornucola,6,8,12,10,0.12
+10-Feb-17,Hornos,ISLA WOLLASTON,-55.59039,-67.52548,Kelp bed,10,South,16,B,QUAN,Cottoperca trigloides,1,16,,16,0.02
+10-Feb-17,Hornos,ISLA WOLLASTON,-55.59039,-67.52548,Kelp bed,10,South,16,B,QUAN,Patagonotothen tessellata,4,10,14,12,0.08
+11-Feb-17,Hornos,ISLA WOLLASTON,-55.6251,-67.48141,Kelp bed,10,South,17,A,QUAN,Patagonotothen tessellata,33,7,15,11,0.66
+11-Feb-17,Hornos,ISLA WOLLASTON,-55.6251,-67.48141,Kelp bed,10,South,17,A,QUAN,Mixine australis,2,12,18,15,0.04
+11-Feb-17,Hornos,ISLA WOLLASTON,-55.6251,-67.48141,Kelp bed,10,South,17,A,QUAN,Patagonotothen cornucola,5,10,11,10.5,0.10
+11-Feb-17,Hornos,ISLA WOLLASTON,-55.6251,-67.48141,Kelp bed,10,South,17,A,QUAN,Patagonotothen sima,2,7,,7,0.04
+11-Feb-17,Hornos,ISLA WOLLASTON,-55.6251,-67.48141,Kelp bed,10,South,17,A,QUAN,Patagonotothen squamiceps,23,6,10,8,0.46
+11-Feb-17,Hornos,ISLA WOLLASTON,-55.6251,-67.48141,Kelp bed,10,South,17,B,QUAN,Patagonotothen tessellata,69,6,16,11,1.38
+11-Feb-17,Hornos,ISLA WOLLASTON,-55.6251,-67.48141,Kelp bed,10,South,17,B,QUAN,Patagonotothen squamiceps,32,6,12,9,0.64
+11-Feb-17,Hornos,ISLA WOLLASTON,-55.6251,-67.48141,Kelp bed,10,South,17,B,QUAN,Patagonotothen sima,1,6,,6,0.02
+11-Feb-17,Hornos,ISLA WOLLASTON,-55.6251,-67.48141,Kelp bed,10,South,17,B,QUAN,Mixine australis,1,20,,20,0.02
+11-Feb-17,Hornos,ISLA WOLLASTON,-55.6251,-67.48141,Kelp bed,10,South,17,B,QUAL,Patagonotothen sp.,1,,,,0.02
+11-Feb-17,Hornos,ISLA WOLLASTON,-55.6251,-67.48141,Kelp bed,10,South,17,B,QUAN,Agonopsis chiloensis,1,8,,8,0.02
+11-Feb-17,Hornos,ISLA GREVY,-55.52999,-67.60627,Kelp bed,10,South,18,A,QUAN,Patagonotothen cornucola,3,5,12,8.5,0.06
+11-Feb-17,Hornos,ISLA GREVY,-55.52999,-67.60627,Kelp bed,10,South,18,A,QUAN,Patagonotothen squamiceps,12,5,10,7.5,0.24
+11-Feb-17,Hornos,ISLA GREVY,-55.52999,-67.60627,Kelp bed,10,South,18,B,QUAN,Patagonotothen tessellata,2,12,,12,0.04
+11-Feb-17,Hornos,ISLA GREVY,-55.52999,-67.60627,Kelp bed,10,South,18,B,QUAL,Sprattus fuegensis,,,,,
+11-Feb-17,Hornos,ISLA GREVY,-55.52999,-67.60627,Kelp bed,10,South,18,B,QUAN,Patagonotothen cornucola,2,8,15,11.5,0.04
+11-Feb-17,Hornos,ISLA GREVY,-55.52999,-67.60627,Kelp bed,10,South,18,B,QUAN,Patagonotothen sima,6,6,10,8,0.12
+11-Feb-17,Hornos,ISLA GREVY,-55.52999,-67.60627,Kelp bed,10,South,18,B,QUAN,Patagonotothen squamiceps,5,8,,8,0.10
+14-Feb-18,Isla de los Estados,Puerto Lasserre,-54.73656,-63.86156,Kelp bed,10,North,4,Media team,QUAL,Salilota australis,,,,,
+13-Feb-18,Isla de los Estados,Merle Cove,-54.792,-64.08,Kelp bed,9,South,2,Media team,QUAL,Agonopsis chiloensis,,,,,
